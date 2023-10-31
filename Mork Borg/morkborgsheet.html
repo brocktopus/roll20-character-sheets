@@ -66,7 +66,7 @@
           <button type="roll" value="https://scvmbirther.makedatanotlore.dev/"><span class="monospace note" data-i18n="scvmbirther-u">SCVMBIRTHER</span></button>
         </div>
 
-        <div class="transparent-bg white-text">
+        <div class="transparent-bg white-text centered">
             <label class="centered">
               <span class="monospace all-caps" data-i18n="hit-points-u">Hit Points</span>
             </label>
@@ -79,7 +79,7 @@
                 <input name="attr_hp_curr" type="number" class="num" value="0" />
               </div>
               <div class="col-custom transparent-bg">
-                <label>
+                <label class="centered">
                   <span class="monospace note" data-i18n="max-hit-points-u">Max</span>
                 </label>
                 <br />
@@ -196,6 +196,14 @@
             <button type="roll" value="&{template:default} {{name=@{char_name} @{labelrolls} @{labelgettingbetter}}} {{@{labelhpcheck}:=[[6d10 > @{hp_max}]]}} {{@{labelhpgain}:=[[1d6]]}} {{@{labeldebris}:=[[1d6]]}} {{@{labelstrinc}=[[1d6 > @{strength}]]}} {{@{labelagiinc}=[[1d6 > @{agility}]]}} {{@{labelpreinc}=[[1d6 > @{presence}]]}} {{@{labeltouinc}=[[1d6 > @{toughness}]]}}" name="roll_gettingbetter"></button>
           </div>
         </div>
+
+        <div class="section white-bg">
+          <label>
+            <span data-i18n="misc-notes" class="unifraktur">Misc. Notes</span>
+          </label>
+          <textarea name="attr_miscnotes"></textarea>
+        </div>
+
       </div>
 
       <div class="col transparent-bg">

@@ -26,6 +26,7 @@
 "toughness-u":"Toughness",
 "omens-u":"Omens",
 "omens-note-u":"Maximum damage, Reroll, -d6 damage, DR-4, No Crit/Fumble",
+"misc-notes": "Misc. Notes",
 "weapons-u":"Weapons",
 "weapons-type-u":"Type",
 "weapons-damage-u":"Dmg Die",
